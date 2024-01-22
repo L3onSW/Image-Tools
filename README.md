@@ -121,7 +121,7 @@ l3on@MacBook:Image-Tools$ python print_image_size.py
 
 
 ## 🪪 License
-This "Image-Tools" source is licensed under the is under [MIT license][license-url].
+This "Image-Tools" source codes is licensed under the [MIT license][license-url].
 
 
 <!-- 本README.mdで使用しているリンク -->
