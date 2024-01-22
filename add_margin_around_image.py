@@ -21,6 +21,15 @@ margin_size = {}
 
 def add_margin_around_image(indir, outdir, margin=None,
                             extension="png", margin_size=None):
+    """add_margin_around_image _summary_
+
+    Args:
+        indir (str): 余白を付加したい画像をまとめて置いているディレクトリ
+        outdir (str): 余白を付加した画像をまとめて置くディレクトリ
+        margin (dict, optional): 各方向(上下左右)に余白を付加するかどうか，デフォルトはTrue.
+        extension (str, optional): 画像ファイルの拡張子，デフォルトは"png".
+        margin_size (dict, optional): 各方向(上下左右)の余白の大きさ，デフォルトは全方向10.
+    """
     # 上下左右に余白を付加するかどうかが定義されていない場合は，
     # 上下左右すべてに余白を付加する設定にする
     if margin is None:
