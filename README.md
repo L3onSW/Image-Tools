@@ -1,14 +1,9 @@
 <!-- 後に利用・活用する自分のためにも"後から見て分かる記録"をREADMEに書く -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 <!-- ここから本文 -->
-# Image-Tools [![python-shield]][python-url]
-画像を扱う際に役に立つかもしれないソースコード集です．
+# Image-Tools
+- 画像を扱う際に役に立つかもしれないソースコード集です．
+- [![python-shield]][python-url]で書かれています．
 <!-- 表にした方が瞬時に概要を把握できるが手間がかかりすぎるのでしない -->
 
 ## [**add_margin_around_image.py**][add_margin_around_image.py-url]
@@ -114,7 +109,7 @@ l3on@MacBook:Image-Tools$ python print_image_size.py
  3.09 MB
 ```
 
-## 🛠️ このリポジトリについて
+## このリポジトリについて
 - 画像を扱う際に便利そうなソースコード集です．
 - もしかしたら誰かの役に立つかもと思いpublic repositoryにしています．
 - バグ等ありましたら本リポジトリの[Issues][issues-url]からお知らせいただけると嬉しいです．
@@ -129,20 +124,9 @@ l3on@MacBook:Image-Tools$ python print_image_size.py
 [crop_image_by_hand.py-url]: https://github.com/L3onSW/Image-Tools/blob/main/crop_image_by_hand.py
 [print_coordinate_clicked_with_mouse.py-url]: https://github.com/L3onSW/Image-Tools/blob/main/print_coordinate_clicked_with_mouse.py
 [print_image_size.py-url]: https://github.com/L3onSW/Image-Tools/blob/main/print_image_size.py
-<!-- Contributors -->
-[contributors-shield]: https://img.shields.io/github/contributors/L3onSW/Image-Tools.svg?style=for-the-badge
-[contributors-url]: https://github.com/L3onSW/Image-Tools/graphs/contributors
-<!-- Forks -->
-[forks-shield]: https://img.shields.io/github/forks/L3onSW/Image-Tools.svg?style=for-the-badge
-[forks-url]: https://github.com/L3onSW/Image-Tools/network/members
-<!-- Stars -->
-[stars-shield]: https://img.shields.io/github/stars/L3onSW/Image-Tools.svg?style=for-the-badge
-[stars-url]: https://github.com/L3onSW/Image-Tools/stargazers
 <!-- Isuues -->
-[issues-shield]: https://img.shields.io/github/issues/L3onSW/Image-Tools.svg?style=for-the-badge
 [issues-url]: https://github.com/L3onSW/Image-Tools/issues
 <!-- License -->
-[license-shield]: https://img.shields.io/github/license/L3onSW/Image-Tools.svg?style=for-the-badge
 [license-url]: https://github.com/L3onSW/Image-Tools/blob/master/UNLICENSE
 <!-- Python -->
 [python-shield]: https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
