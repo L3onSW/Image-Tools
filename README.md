@@ -11,7 +11,7 @@
 画像を扱う際に役に立つかもしれないソースコード集です．
 <!-- 表にした方が瞬時に概要を把握できるが手間がかかりすぎるのでしない -->
 
-## 👨‍💻 [**add_margin_around_image.py**][add_margin_around_image.py-url]
+## [**add_margin_around_image.py**][add_margin_around_image.py-url]
 画像の周囲(上下左右)に余白を付加する．
 ```console
 l3on@MacBook:Image-Tools$ python add_margin_around_image.py 
@@ -40,7 +40,7 @@ Add margin:  ./src_images/3.png --> ./mgn_images/3.png
 Finished for all images
 ```
 
-## 👨‍💻 [**combine_2_images_into_1_image.py**][combine_2_images_into_1_image.py-url]
+## [**combine_2_images_into_1_image.py**][combine_2_images_into_1_image.py-url]
 2枚の画像を合体させて1枚の画像を生成する．
 - 【横方向(左右)の合体】
   - 小さい方の画像の上下に余白を追加してから，横方向(左右)に2枚の画像を合体させ1枚の画像を生成．
@@ -55,8 +55,8 @@ To combine vertically is done
 ```
 
 
-## 👨‍💻 [**compress_image.py**][compress_image.py-url]
-複数枚の画像を圧縮してファイルサイズを小さくする．(🚨注意：画質が悪化する．)
+## [**compress_image.py**][compress_image.py-url]
+複数枚の画像を圧縮してファイルサイズを小さくする．(注意：画質が悪化する．)
 ```console
 l3on@MacBook:Image-Tools$ python compress_image.py 
 Compress:  ./src_images/1.png --> ./cmp_images/1.png
@@ -65,7 +65,7 @@ Compress:  ./src_images/3.png --> ./cmp_images/3.png
 Finished for all images
 ```
 
-## 👨‍💻 [**convert_image_to_pdf.py**][convert_image_to_pdf.py-url]
+## [**convert_image_to_pdf.py**][convert_image_to_pdf.py-url]
 複数枚の画像を同じファイル名の複数個のpdfへ変換する．(1対1対応)
 ```console
 l3on@MacBook:Image-Tools$ python convert_image_to_pdf.py 
@@ -76,7 +76,7 @@ Finished for all images
 ```
 
 
-## 👨‍💻 [**crop_image_by_hand.py**][crop_image_by_hand.py-url]
+## [**crop_image_by_hand.py**][crop_image_by_hand.py-url]
 複数枚の画像を同じ長方形の画像へ切り抜く．
 ```console
 l3on@MacBook:Image-Tools$ python crop_image_by_hand.py 
@@ -86,7 +86,7 @@ Crop:  ./src_images/3.png --> ./crp_images/3.png
 Finished for all images
 ```
 
-## 👨‍💻 [**print_coordinate_clicked_with_mouse.py**][print_coordinate_clicked_with_mouse.py-url]
+## [**print_coordinate_clicked_with_mouse.py**][print_coordinate_clicked_with_mouse.py-url]
 マウスで左クリックした箇所の画像内の座標を表示する．
 ```console
 l3on@MacBook:Image-Tools$ python print_coordinate_clicked_with_mouse.py
@@ -96,7 +96,7 @@ l3on@MacBook:Image-Tools$ python print_coordinate_clicked_with_mouse.py
 ```
 
 
-## 👨‍💻 [**print_image_size.py**][print_image_size.py-url]
+## [**print_image_size.py**][print_image_size.py-url]
 複数枚の画像のサイズ(幅と高さ)とファイルサイズをターミナル上に表示する．
 ```console
 l3on@MacBook:Image-Tools$ python print_image_size.py 
@@ -118,10 +118,6 @@ l3on@MacBook:Image-Tools$ python print_image_size.py
 - 画像を扱う際に便利そうなソースコード集です．
 - もしかしたら誰かの役に立つかもと思いpublic repositoryにしています．
 - バグ等ありましたら本リポジトリの[Issues][issues-url]からお知らせいただけると嬉しいです．
-
-
-## 🪪 License
-This "Image-Tools" source codes is licensed under the [MIT license][license-url].
 
 
 <!-- 本README.mdで使用しているリンク -->
@@ -147,7 +143,7 @@ This "Image-Tools" source codes is licensed under the [MIT license][license-url]
 [issues-url]: https://github.com/L3onSW/Image-Tools/issues
 <!-- License -->
 [license-shield]: https://img.shields.io/github/license/L3onSW/Image-Tools.svg?style=for-the-badge
-[license-url]: https://github.com/L3onSW/Image-Tools/blob/master/LICENSE
+[license-url]: https://github.com/L3onSW/Image-Tools/blob/master/UNLICENSE
 <!-- Python -->
 [python-shield]: https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
 [python-url]: https://www.python.org
